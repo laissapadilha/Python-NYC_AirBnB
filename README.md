@@ -15,4 +15,4 @@ Por meio desta análise exploratória de dados, buscou-se analisar e entender os
 - Avaliação dos preços médios e máximos por distrito;
 - Padrões no número mínimo de noites exigidas, diferenciando entre turistas de curto prazo e outros públicos de estadia prolongada.
 
-**Acesse a análise completa** [aqui](https://github.com/laissapadilha/Python_NYC_AirBnB/blob/6c02a87245dc8ec7ae1edc0d116fba365383d83e/airbnb_nyc.ipynb)
+**Acesse a análise completa** [aqui](https://github.com/laissapadilha/Python-NYC_AirBnB/blob/4d929530c75e24c516f495cbc4a33303d09f16ed/airbnb_nyc.ipynb)
