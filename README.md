@@ -13,7 +13,7 @@ Por meio desta análise exploratória de dados, buscou-se analisar e entender os
 - Avaliação dos preços médios e máximos por distrito;
 - Padrões no número mínimo de noites exigidas, diferenciando entre turistas de curto prazo e outros públicos de estadia prolongada.
 
-**Acesse a análise completa** [aqui](https://github.com/laissapadilha/Python-NYC_AirBnB/blob/66052aeff4e96553d444741df10692b787c3a4b9/airbnb_nyc.ipynb)
+**A análise completa em Python pode ser acessada** [aqui](https://github.com/laissapadilha/Python-NYC_AirBnB/blob/66052aeff4e96553d444741df10692b787c3a4b9/airbnb_nyc.ipynb)
 
 ## Exploração dos Dados
 
@@ -33,11 +33,11 @@ O gráfico acima demonstra que Manhattan mais de 85% das acomodações estão lo
 
 Além disso, conforme é possível visualizar abaixo, quando analisa-se a distruibuição das acomodações por tipo de quarto, reafirma-se o dado de que, majoritariamente, os imóveis são do tipo Entire home/apt ou Private Room. Em Manhattan há a maior concentração de apartamentos do tipo Entire home/apt, enquanto a maior número de apartamentos do tipo Private room está no Brooklyn.
 
-![image](https://github.com/user-attachments/assets/5af7f445-6547-4e90-8f0e-f5d151a7c2c7)
+<img src="https://github.com/user-attachments/assets/5af7f445-6547-4e90-8f0e-f5d151a7c2c7" alt="image" width="50%">
 
 Visto que já foi identificado que a maior quantidade de acomodações está em Manhattan ou no Brooklyn, também foi verificado os bairros destes distritos que possuem a maior distruibuição de imóveis.
 
-![image](https://github.com/user-attachments/assets/d9a28168-f3a9-48b8-99cc-e51df1ab7c67)
+<img src="https://github.com/user-attachments/assets/d9a28168-f3a9-48b8-99cc-e51df1ab7c67" alt="image" width="40%">
 
 Quando avalia-se os top 10 bairros com mais acomodações listadas, é possível verifcar que embora as duas primeiras posições sejam ocupadas por bairros localizados no distrito do Brooklyn, Manhattan possui cerca cerca de 100 imóveis a mais neste ranking, representando um total de 6 bairros, dois a mais que no Brooklyn.
 
@@ -45,7 +45,7 @@ Quando avalia-se os top 10 bairros com mais acomodações listadas, é possível
 
 Conforme podemos verificar na tabela abaixo, o preço médio da diária é de US$ 152.72, com um desvio padrão de US$ 240.15. Este desvio padrão pode ser considerado elevado, indicando que há uma alta dispersão ou variabilidade dos preços em relação à média. Quando avaliamos os quartis, pode-se perceber que a maior parte das acomodações possui diária pouco maior que a média e estão nos três primeiros quartis.
 
-![image](https://github.com/user-attachments/assets/cca6061c-143b-4043-8acd-3cf2fd38985a)
+<img src="https://github.com/user-attachments/assets/cca6061c-143b-4043-8acd-3cf2fd38985a" alt="image" width="50%">
 
 Com base nos gráficos abaixo, cabe citar os seguintes pontos:
 
@@ -62,19 +62,19 @@ Com base nos gráficos abaixo, cabe citar os seguintes pontos:
 
 É possível verificar abaixo que as acomodações mais caras estão no Queens, Brooklyn e Manhattan, sendo que este último distrito, possui a maior quantidade de imóveis dentre os mais caros. Chama a atenção que temos quartos do tipo Private Room entre os mais caros, e não somente Entire home/apt.
 
-![image](https://github.com/user-attachments/assets/c8805c54-924f-43d1-ad63-8317e164cec7)
+<img src="https://github.com/user-attachments/assets/c8805c54-924f-43d1-ad63-8317e164cec7" alt="image" width="50%">
 
 ### Mínimo de Noites
 
 Conforme pode ser verificado abaixo, de forma geral, a média do mínimo de noites é 7, com um desvio padrão relativamente alto de 20 noites. Além disso, chama a atenção o máximo de noites relacionado na base, que é de 1250 noites (aproximadamente 42 meses).
 
-![image](https://github.com/user-attachments/assets/dcd4125b-f191-447b-8872-a08f63cc0307)
+<img src="https://github.com/user-attachments/assets/dcd4125b-f191-447b-8872-a08f63cc0307" alt="image" width="50%">
 
 A seguir, o número mínimo de noite foi separado em alguns intervalos:
 
-![image](https://github.com/user-attachments/assets/630bbafe-520c-4874-847c-6810ca264219)
+<img src="https://github.com/user-attachments/assets/630bbafe-520c-4874-847c-6810ca264219" alt="image" width="30%">
 
-![image](https://github.com/user-attachments/assets/2e82d5f2-f8c8-4700-91a3-763261b6a4d3)
+<img src="https://github.com/user-attachments/assets/2e82d5f2-f8c8-4700-91a3-763261b6a4d3" alt="image" width="50%">
 
 Conforme verifica-se acima, mais de 98% das acomodações listadas exigem um mínimo de noites de até 30 dias, sendo um percentual superior a 86% para apartamentos com mínimo de noites de até 10 dias. Quando analisamos a distribuiçao do diferentes room_types nas faixas de mínimo de noites, também identificamos uma elevada concentração de acomodações na faixa de até 30 dias.
 
@@ -82,7 +82,7 @@ Conforme verifica-se acima, mais de 98% das acomodações listadas exigem um mí
 
 A seguir, avaliou-se a média, mediana, moda, mínimo e máximo de noites por distrito.
 
-![image](https://github.com/user-attachments/assets/111f73cc-72a1-4fb7-aace-d78e4e77087e)
+<img src="https://github.com/user-attachments/assets/111f73cc-72a1-4fb7-aace-d78e4e77087e" alt="image" width="40%">
 
 Quando olhamos para a média, o Bronx possui a menor média de noites, enquanto Manhattan, a maior. 
 
@@ -96,13 +96,13 @@ Novamente o máximo de noites chama a atenção, e podemos verificar que a acomo
 
 Conforme verifica-se abaixo, as acomodações com mínimo de diárias superior a 365 apresentam a menor média de preços. Chama a atenção que os apartamentos com mínimo de diárias maior que 90 até 180 noites, apresenta média maior que o dobro das demais faixas.
 
-![image](https://github.com/user-attachments/assets/e47b8371-25ed-4acf-a0f3-bcc76203137f)
+<img src="https://github.com/user-attachments/assets/e47b8371-25ed-4acf-a0f3-bcc76203137f" alt="image" width="30%">
 
 ### Avaliações
 
 Quando olhamos apenas para as acomodações que mais receberam avaliações, é possível identificar que estão localizados no Queens, Manhattan e Brooklyn. Não temos imóveis no Bronx e Staten Island entre os que mais receberam avaliações.
 
-![image](https://github.com/user-attachments/assets/7c711d0e-f7b1-46c7-b759-ecafc731f3b9)
+<img src="https://github.com/user-attachments/assets/7c711d0e-f7b1-46c7-b759-ecafc731f3b9" alt="image" width="80%">
 
 Adicionalmente, foi possível identificar que um total de 10.051 acomodações não receberam nenhuma avaliação. A partir disso, verificou-se qual o percentual de acomodações por distrito que não receberam nenhuma avaliação. Tais informações estão exibidas no gráfico abaixo.
 
